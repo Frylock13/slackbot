@@ -1,9 +1,10 @@
 require 'sinatra/base'
+require 'httparty'
 
 module PandaBot
   class Web < Sinatra::Base
     get '/' do
-      'Math is good for you.'
+      'Welcome, human.'
     end
   end
 end
