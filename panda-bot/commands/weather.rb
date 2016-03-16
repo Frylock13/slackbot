@@ -2,7 +2,7 @@ module PandaBot
   module Commands
     class Weather < SlackRubyBot::Commands::Base
       command 'weather' do |client, data, _match|
-        response = HTTParty.get("http://api.openweathermap.org/data/2.5/weather?q=Saint+Petersburg&APPID=01e22e4baba3b929e246851ed8564664&units=metric")
+        response = HTTParty.get("http://api.openweathermap.org/data/2.5/weather?q=Saint+Petersburg&APPID=#{ENV['WEATHER_API_KEY']}&units=metric")
         desc = response['weather'][0]['description']
         temp = response['main']['temp']
         wind = response['wind']['speed']
