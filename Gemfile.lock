@@ -30,6 +30,7 @@ GEM
       faraday_middleware-parse_oj (~> 0.3)
       launchy (~> 2.4)
     gli (2.13.4)
+    goog_currency (1.1.0)
     hashie (3.4.3)
     httparty (0.13.7)
       json (~> 1.8)
@@ -95,6 +96,7 @@ PLATFORMS
 DEPENDENCIES
   dotenv
   foreman
+  goog_currency
   httparty
   puma
   rack-test

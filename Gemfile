@@ -4,7 +4,8 @@ gem 'slack-ruby-bot'
 gem 'puma'
 gem 'sinatra'
 gem 'dotenv'
-gem "httparty"
+gem 'httparty'
+gem 'goog_currency'
 
 group :development, :test do
   gem 'rake'

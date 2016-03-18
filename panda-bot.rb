@@ -1,4 +1,5 @@
 require 'slack-ruby-bot'
 require 'panda-bot/commands/vlada'
 require 'panda-bot/commands/weather'
+require 'panda-bot/commands/usd'
 require 'panda-bot/bot'
