@@ -3,4 +3,5 @@
 ## WEATHER_API_KEY [Get here](http://openweathermap.org/api)  
 
 # Commands:
-## Weather
+### weather (Celsium, m/s)
+### usd (usd-ruble)
